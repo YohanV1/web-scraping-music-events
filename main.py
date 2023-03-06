@@ -21,5 +21,6 @@ def extract(source):
 
 
 if __name__ == '__main__':
-    print(scrape(URL))
-    extract()
+    scraped = scrape(URL)
+    extracted = extract(scraped)
+    print(extracted)
